@@ -6,12 +6,12 @@ package throttling
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/message"
+	"github.com/SavaLabs/savannahnode/snow/validators"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/math"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
 )
 
 var (

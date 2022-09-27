@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/engine/avalanche/vertex"
 )
 
 func TestVotingFinishesWithAbandonedDep(t *testing.T) {

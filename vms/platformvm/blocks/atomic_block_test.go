@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/vms/components/verify"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs"
 )
 
 func TestNewApricotAtomicBlock(t *testing.T) {

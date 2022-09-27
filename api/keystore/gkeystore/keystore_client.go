@@ -6,14 +6,14 @@ package gkeystore
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/api/keystore"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/encdb"
-	"github.com/ava-labs/avalanchego/database/rpcdb"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/SavaLabs/savannahnode/api/keystore"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/database/encdb"
+	"github.com/SavaLabs/savannahnode/database/rpcdb"
+	"github.com/SavaLabs/savannahnode/vms/rpcchainvm/grpcutils"
 
-	keystorepb "github.com/ava-labs/avalanchego/proto/pb/keystore"
-	rpcdbpb "github.com/ava-labs/avalanchego/proto/pb/rpcdb"
+	keystorepb "github.com/SavaLabs/savannahnode/proto/pb/keystore"
+	rpcdbpb "github.com/SavaLabs/savannahnode/proto/pb/rpcdb"
 )
 
 var _ keystore.BlockchainKeystore = &Client{}

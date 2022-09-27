@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs"
 )
 
 // Block defines the common stateless interface for all blocks

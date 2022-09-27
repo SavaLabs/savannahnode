@@ -8,9 +8,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/SavaLabs/savannahnode/utils/timer/mockable"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/SavaLabs/savannahnode/utils/math"
 )
 
 var (

@@ -6,7 +6,7 @@ package router
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
 )
 
 // routerMetrics about router messages

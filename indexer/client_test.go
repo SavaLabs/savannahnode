@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils"
+	"github.com/SavaLabs/savannahnode/utils/formatting"
+	"github.com/SavaLabs/savannahnode/utils/rpc"
 )
 
 type mockClient struct {

@@ -7,7 +7,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/SavaLabs/savannahnode/ids"
 )
 
 func BenchmarkLRUCachePutSmall(b *testing.B) {

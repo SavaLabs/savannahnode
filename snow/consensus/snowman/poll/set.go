@@ -12,10 +12,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/linkedhashmap"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/metric"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/linkedhashmap"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/metric"
 )
 
 type pollHolder interface {

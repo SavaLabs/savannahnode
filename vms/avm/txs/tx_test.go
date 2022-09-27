@@ -7,16 +7,16 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/avm/fxs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/codec"
+	"github.com/SavaLabs/savannahnode/codec/linearcodec"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow"
+	"github.com/SavaLabs/savannahnode/utils/crypto"
+	"github.com/SavaLabs/savannahnode/utils/units"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/vms/avm/fxs"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
 )
 
 var (

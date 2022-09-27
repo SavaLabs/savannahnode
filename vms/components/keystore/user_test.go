@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database/encdb"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto"
+	"github.com/SavaLabs/savannahnode/database/encdb"
+	"github.com/SavaLabs/savannahnode/database/memdb"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/crypto"
 )
 
 // Test user password, must meet minimum complexity/length requirements

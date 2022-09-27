@@ -4,10 +4,10 @@
 package state
 
 import (
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
+	"github.com/SavaLabs/savannahnode/cache"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/choices"
+	"github.com/SavaLabs/savannahnode/snow/engine/avalanche/vertex"
 )
 
 const (

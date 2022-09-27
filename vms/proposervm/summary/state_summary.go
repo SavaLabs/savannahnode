@@ -4,7 +4,7 @@
 package summary
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/SavaLabs/savannahnode/ids"
 )
 
 var _ StateSummary = &stateSummary{}

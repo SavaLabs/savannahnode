@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/api"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/formatting"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/math"
+	"github.com/SavaLabs/savannahnode/vms/avm/txs"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
 )
 
 type WalletService struct {

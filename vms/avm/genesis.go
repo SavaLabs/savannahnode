@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
+	"github.com/SavaLabs/savannahnode/utils"
+	"github.com/SavaLabs/savannahnode/vms/avm/txs"
 )
 
 type Genesis struct {

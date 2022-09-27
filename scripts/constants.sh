@@ -5,28 +5,31 @@
 # Use the versions.sh to specify versions
 #
 
-AVALANCHE_PATH=$( cd "$( dirname "${BASH_SOURCE[0]}" )"; cd .. && pwd ) # Directory above this script
+SAVANODE_PATH=$( cd "$( dirname "${BASH_SOURCE[0]}" )"; cd .. && pwd ) # Directory above this script
 
 # Set the PATHS
 GOPATH="$(go env GOPATH)"
-coreth_path="$GOPATH/pkg/mod/github.com/ava-labs/coreth@$coreth_version"
 
-# Where AvalancheGo binary goes
-build_dir="$AVALANCHE_PATH/build"
-avalanchego_path="$build_dir/avalanchego"
+### temporary, until we have a committed version
+#coreth_path="$GOPATH/pkg/mod/github.com/SavaLabs/coreth@$coreth_version"
+coreth_path="$GOPATH/src/github.com/kukrer/coreth"
+
+# Where Savannahnode binary goes
+build_dir="$SAVANODE_PATH/build"
+savanode_path="$build_dir/savannahnode"
 plugin_dir="$build_dir/plugins"
 evm_path="$plugin_dir/evm"
 
-# Avalabs docker hub
-# avaplatform/avalanchego - defaults to local as to avoid unintentional pushes
-# You should probably set it - export DOCKER_REPO='avaplatform/avalanchego'
-avalanchego_dockerhub_repo=${DOCKER_REPO:-"avalanchego"}
+# Savalabs docker hub
+# savanahlabs/savannahnode - defaults to local as to avoid unintentional pushes
+# You should probably set it - export DOCKER_REPO='savanahlabs/savannahnode'
+savannahnode_dockerhub_repo=${DOCKER_REPO:-"savannahnode"}
 
 # Current branch
 # TODO: fix "fatal: No names found, cannot describe anything" in github CI
 current_branch=$(git symbolic-ref -q --short HEAD || git describe --tags --exact-match || true)
 
-git_commit=${AVALANCHEGO_COMMIT:-$( git rev-list -1 HEAD )}
+git_commit=${SAVANNAHNODE_COMMIT:-$( git rev-list -1 HEAD )}
 
 # Static compilation
 static_ld_flags=''

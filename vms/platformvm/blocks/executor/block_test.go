@@ -10,12 +10,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/vms/platformvm/blocks"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/choices"
+	"github.com/SavaLabs/savannahnode/snow/consensus/snowman"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/blocks"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/state"
 )
 
 func TestStatus(t *testing.T) {

@@ -6,9 +6,9 @@ package x
 import (
 	stdcontext "context"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/avm"
+	"github.com/SavaLabs/savannahnode/api/info"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/vms/avm"
 )
 
 var _ Context = &context{}

@@ -11,16 +11,16 @@ import (
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/tests"
-	"github.com/ava-labs/avalanchego/tests/e2e"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
+	"github.com/SavaLabs/savannahnode/genesis"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/tests"
+	"github.com/SavaLabs/savannahnode/tests/e2e"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/units"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/vms/components/verify"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/wallet/subnet/primary"
 )
 
 var _ = e2e.DescribeLocal("[Blueberry]", func() {

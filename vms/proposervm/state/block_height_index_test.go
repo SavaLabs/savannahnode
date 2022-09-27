@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/SavaLabs/savannahnode/database/memdb"
+	"github.com/SavaLabs/savannahnode/database/versiondb"
+	"github.com/SavaLabs/savannahnode/utils/logging"
 )
 
 func TestHasIndexReset(t *testing.T) {

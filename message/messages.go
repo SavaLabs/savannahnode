@@ -16,14 +16,14 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/compression"
-	"github.com/ava-labs/avalanchego/utils/ips"
-	"github.com/ava-labs/avalanchego/utils/metric"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/compression"
+	"github.com/SavaLabs/savannahnode/utils/ips"
+	"github.com/SavaLabs/savannahnode/utils/metric"
+	"github.com/SavaLabs/savannahnode/utils/timer/mockable"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
 
-	p2ppb "github.com/ava-labs/avalanchego/proto/pb/p2p"
+	p2ppb "github.com/SavaLabs/savannahnode/proto/pb/p2p"
 )
 
 var (

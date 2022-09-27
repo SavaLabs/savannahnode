@@ -4,9 +4,9 @@
 package avalanche
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow"
+	"github.com/SavaLabs/savannahnode/snow/consensus/snowstorm"
 )
 
 // TODO: Implement pruning of accepted decisions.

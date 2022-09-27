@@ -4,9 +4,9 @@
 package api
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/json"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/formatting"
+	"github.com/SavaLabs/savannahnode/utils/json"
 )
 
 // This file contains structs used in arguments and responses in services

@@ -23,7 +23,7 @@ import (
 
 	tspb "google.golang.org/protobuf/types/known/timestamppb"
 
-	httppb "github.com/ava-labs/avalanchego/proto/pb/http"
+	httppb "github.com/SavaLabs/savannahnode/proto/pb/http"
 )
 
 const (

@@ -4,9 +4,9 @@
 package proposervm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/vms/proposervm/indexer"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/consensus/snowman"
+	"github.com/SavaLabs/savannahnode/vms/proposervm/indexer"
 )
 
 var _ indexer.BlockServer = &VM{}

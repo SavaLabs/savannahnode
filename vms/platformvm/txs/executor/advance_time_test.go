@@ -10,14 +10,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/vms/platformvm/reward"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/status"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/crypto"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/reward"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/state"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/status"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs"
 )
 
 // Ensure semantic verification updates the current and pending staker set
@@ -463,7 +463,7 @@ func TestAdvanceTimeTxUpdateStakers(t *testing.T) {
 	}
 }
 
-// Regression test for https://github.com/ava-labs/avalanchego/pull/584
+// Regression test for https://github.com/SavaLabs/savannahnode/pull/584
 // that ensures it fixes a bug where subnet validators are not removed
 // when timestamp is advanced and there is a pending staker whose start time
 // is after the new timestamp

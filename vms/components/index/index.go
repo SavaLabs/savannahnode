@@ -13,12 +13,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/database/prefixdb"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
 )
 
 var (

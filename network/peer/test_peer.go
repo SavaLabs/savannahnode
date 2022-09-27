@@ -11,19 +11,19 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/network/throttling"
-	"github.com/ava-labs/avalanchego/snow/networking/router"
-	"github.com/ava-labs/avalanchego/snow/networking/tracker"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/staking"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/ips"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/math/meter"
-	"github.com/ava-labs/avalanchego/utils/resource"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/message"
+	"github.com/SavaLabs/savannahnode/network/throttling"
+	"github.com/SavaLabs/savannahnode/snow/networking/router"
+	"github.com/SavaLabs/savannahnode/snow/networking/tracker"
+	"github.com/SavaLabs/savannahnode/snow/validators"
+	"github.com/SavaLabs/savannahnode/staking"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/ips"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/math/meter"
+	"github.com/SavaLabs/savannahnode/utils/resource"
+	"github.com/SavaLabs/savannahnode/version"
 )
 
 const maxMessageToSend = 1024

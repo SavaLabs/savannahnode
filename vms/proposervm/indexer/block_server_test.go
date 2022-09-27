@@ -7,8 +7,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/consensus/snowman"
 )
 
 var (

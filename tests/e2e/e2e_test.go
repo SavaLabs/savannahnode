@@ -13,18 +13,18 @@ import (
 	"time"
 
 	runner_sdk "github.com/ava-labs/avalanche-network-runner-sdk"
-	"github.com/ava-labs/avalanchego/tests"
-	"github.com/ava-labs/avalanchego/tests/e2e"
+	"github.com/SavaLabs/savannahnode/tests"
+	"github.com/SavaLabs/savannahnode/tests/e2e"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 
 	// ensure test packages are scanned by ginkgo
-	_ "github.com/ava-labs/avalanchego/tests/e2e/blueberry"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/ping"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/static-handlers"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/whitelist-vtx"
-	_ "github.com/ava-labs/avalanchego/tests/e2e/x/transfer"
+	_ "github.com/SavaLabs/savannahnode/tests/e2e/blueberry"
+	_ "github.com/SavaLabs/savannahnode/tests/e2e/ping"
+	_ "github.com/SavaLabs/savannahnode/tests/e2e/static-handlers"
+	_ "github.com/SavaLabs/savannahnode/tests/e2e/whitelist-vtx"
+	_ "github.com/SavaLabs/savannahnode/tests/e2e/x/transfer"
 )
 
 func TestE2E(t *testing.T) {

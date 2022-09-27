@@ -4,10 +4,10 @@
 package avm
 
 import (
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/vms/avm/txs"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/vms/components/verify"
 )
 
 var _ txs.Visitor = &txSemanticVerify{}

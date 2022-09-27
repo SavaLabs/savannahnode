@@ -6,11 +6,11 @@ package snowman
 import (
 	"math/rand"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowball"
-	"github.com/ava-labs/avalanchego/utils/sampler"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow"
+	"github.com/SavaLabs/savannahnode/snow/choices"
+	"github.com/SavaLabs/savannahnode/snow/consensus/snowball"
+	"github.com/SavaLabs/savannahnode/utils/sampler"
 )
 
 type Network struct {

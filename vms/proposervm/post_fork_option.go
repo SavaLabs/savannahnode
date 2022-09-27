@@ -6,9 +6,9 @@ package proposervm
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/vms/proposervm/block"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/choices"
+	"github.com/SavaLabs/savannahnode/vms/proposervm/block"
 )
 
 var _ PostForkBlock = &postForkOption{}

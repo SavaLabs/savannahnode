@@ -6,10 +6,10 @@ package chains
 import (
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/networking/sender"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/consensus/avalanche"
+	"github.com/SavaLabs/savannahnode/snow/engine/common"
+	"github.com/SavaLabs/savannahnode/snow/networking/sender"
 )
 
 var _ Subnet = &subnet{}

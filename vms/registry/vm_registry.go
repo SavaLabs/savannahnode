@@ -3,7 +3,7 @@
 
 package registry
 
-import "github.com/ava-labs/avalanchego/ids"
+import "github.com/SavaLabs/savannahnode/ids"
 
 var _ VMRegistry = &vmRegistry{}
 

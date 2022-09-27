@@ -9,13 +9,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/app"
-	"github.com/ava-labs/avalanchego/nat"
-	"github.com/ava-labs/avalanchego/node"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/perms"
-	"github.com/ava-labs/avalanchego/utils/ulimit"
+	"github.com/SavaLabs/savannahnode/app"
+	"github.com/SavaLabs/savannahnode/nat"
+	"github.com/SavaLabs/savannahnode/node"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/perms"
+	"github.com/SavaLabs/savannahnode/utils/ulimit"
 )
 
 const (

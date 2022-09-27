@@ -6,10 +6,10 @@ package gsubnetlookup
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow"
 
-	subnetlookuppb "github.com/ava-labs/avalanchego/proto/pb/subnetlookup"
+	subnetlookuppb "github.com/SavaLabs/savannahnode/proto/pb/subnetlookup"
 )
 
 var _ snow.SubnetLookup = &Client{}

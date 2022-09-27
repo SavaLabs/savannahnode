@@ -6,7 +6,7 @@ package mockdb
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/SavaLabs/savannahnode/database"
 )
 
 var (

@@ -8,11 +8,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/sampler"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/formatting"
+	"github.com/SavaLabs/savannahnode/utils/sampler"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/SavaLabs/savannahnode/utils/math"
 )
 
 const (

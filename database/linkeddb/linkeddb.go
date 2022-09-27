@@ -6,9 +6,9 @@ package linkeddb
 import (
 	"sync"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/SavaLabs/savannahnode/cache"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/utils"
 )
 
 const (

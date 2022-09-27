@@ -9,11 +9,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/txheap"
+	"github.com/SavaLabs/savannahnode/cache"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/units"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs/txheap"
 )
 
 const (

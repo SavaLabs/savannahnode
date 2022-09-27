@@ -8,13 +8,13 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/dialer"
-	"github.com/ava-labs/avalanchego/network/throttling"
-	"github.com/ava-labs/avalanchego/snow/networking/tracker"
-	"github.com/ava-labs/avalanchego/snow/uptime"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/network/dialer"
+	"github.com/SavaLabs/savannahnode/network/throttling"
+	"github.com/SavaLabs/savannahnode/snow/networking/tracker"
+	"github.com/SavaLabs/savannahnode/snow/uptime"
+	"github.com/SavaLabs/savannahnode/snow/validators"
+	"github.com/SavaLabs/savannahnode/utils/ips"
 )
 
 // HealthConfig describes parameters for network layer health checks.

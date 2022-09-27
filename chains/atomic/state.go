@@ -7,12 +7,12 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/linkeddb"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/database/linkeddb"
+	"github.com/SavaLabs/savannahnode/database/prefixdb"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils"
+	"github.com/SavaLabs/savannahnode/utils/hashing"
 )
 
 var errDuplicatedOperation = errors.New("duplicated operation on provided value")

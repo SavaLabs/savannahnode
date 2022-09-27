@@ -16,11 +16,11 @@ import (
 
 	secp256k1 "github.com/decred/dcrd/dcrec/secp256k1/v3"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/cb58"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/SavaLabs/savannahnode/cache"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils"
+	"github.com/SavaLabs/savannahnode/utils/cb58"
+	"github.com/SavaLabs/savannahnode/utils/hashing"
 )
 
 const (

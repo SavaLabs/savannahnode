@@ -11,12 +11,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/ava-labs/avalanchego/snow/engine/common/queue"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/choices"
+	"github.com/SavaLabs/savannahnode/snow/consensus/avalanche"
+	"github.com/SavaLabs/savannahnode/snow/engine/avalanche/vertex"
+	"github.com/SavaLabs/savannahnode/snow/engine/common/queue"
+	"github.com/SavaLabs/savannahnode/utils/logging"
 )
 
 var errMissingVtxDependenciesOnAccept = errors.New("attempting to execute blocked vertex")

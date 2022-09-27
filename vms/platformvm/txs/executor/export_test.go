@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/crypto"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/state"
 )
 
 func TestNewExportTx(t *testing.T) {

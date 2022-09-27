@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/platformvm/utxo"
+	"github.com/SavaLabs/savannahnode/chains/atomic"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/vms/components/verify"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/state"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/utxo"
 )
 
 var (

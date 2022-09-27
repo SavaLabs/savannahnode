@@ -6,9 +6,9 @@ package throttling
 import (
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/validators"
+	"github.com/SavaLabs/savannahnode/utils/logging"
 )
 
 // Used by the sybil-safe inbound and outbound message throttlers

@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/codec/reflectcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/SavaLabs/savannahnode/codec/reflectcodec"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/units"
 )
 
 func equal(require *require.Assertions, chainID ids.ID, want, have SignedBlock) {

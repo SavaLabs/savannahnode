@@ -12,11 +12,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/message"
+	"github.com/SavaLabs/savannahnode/utils/math"
+	"github.com/SavaLabs/savannahnode/utils/timer/mockable"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
 )
 
 var (

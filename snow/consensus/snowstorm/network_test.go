@@ -4,12 +4,12 @@
 package snowstorm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/utils/sampler"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow"
+	"github.com/SavaLabs/savannahnode/snow/choices"
+	"github.com/SavaLabs/savannahnode/utils/sampler"
 
-	sbcon "github.com/ava-labs/avalanchego/snow/consensus/snowball"
+	sbcon "github.com/SavaLabs/savannahnode/snow/consensus/snowball"
 )
 
 type Network struct {

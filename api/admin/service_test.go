@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms"
-	"github.com/ava-labs/avalanchego/vms/registry"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/vms"
+	"github.com/SavaLabs/savannahnode/vms/registry"
 )
 
 var errOops = errors.New("oops")

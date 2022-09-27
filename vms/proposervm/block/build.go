@@ -9,10 +9,10 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/codec"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/hashing"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
 )
 
 func BuildUnsignedApricot(

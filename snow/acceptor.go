@@ -9,8 +9,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/logging"
 )
 
 var (

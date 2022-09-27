@@ -9,12 +9,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/codec"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/crypto"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
 )
 
 var preFundedKeys = crypto.BuildTestKeys()

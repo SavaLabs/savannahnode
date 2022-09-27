@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/codec"
+	"github.com/SavaLabs/savannahnode/codec/linearcodec"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/database/memdb"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
 )
 
 func TestUTXOState(t *testing.T) {

@@ -12,12 +12,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database/leveldb"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/meterdb"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/SavaLabs/savannahnode/database/leveldb"
+	"github.com/SavaLabs/savannahnode/database/memdb"
+	"github.com/SavaLabs/savannahnode/database/meterdb"
+	"github.com/SavaLabs/savannahnode/database/prefixdb"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/version"
 )
 
 func TestNewSingleLevelDB(t *testing.T) {

@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/version"
 
-	"github.com/ava-labs/avalanchego/database/manager"
-	"github.com/ava-labs/avalanchego/snow"
+	"github.com/SavaLabs/savannahnode/database/manager"
+	"github.com/SavaLabs/savannahnode/snow"
 )
 
 var (

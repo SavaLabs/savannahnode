@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/buffer"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/SavaLabs/savannahnode/utils"
+	"github.com/SavaLabs/savannahnode/utils/buffer"
+	"github.com/SavaLabs/savannahnode/utils/timer/mockable"
 )
 
 var _ Window[struct{}] = &window[struct{}]{}

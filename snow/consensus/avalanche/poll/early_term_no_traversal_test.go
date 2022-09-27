@@ -6,7 +6,7 @@ package poll
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/SavaLabs/savannahnode/ids"
 )
 
 func TestEarlyTermNoTraversalResults(t *testing.T) {

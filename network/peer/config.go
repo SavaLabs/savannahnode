@@ -6,15 +6,15 @@ package peer
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/network/throttling"
-	"github.com/ava-labs/avalanchego/snow/networking/router"
-	"github.com/ava-labs/avalanchego/snow/networking/tracker"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/message"
+	"github.com/SavaLabs/savannahnode/network/throttling"
+	"github.com/SavaLabs/savannahnode/snow/networking/router"
+	"github.com/SavaLabs/savannahnode/snow/networking/tracker"
+	"github.com/SavaLabs/savannahnode/snow/validators"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/timer/mockable"
+	"github.com/SavaLabs/savannahnode/version"
 )
 
 type Config struct {

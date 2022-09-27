@@ -10,13 +10,13 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/api/keystore"
-	"github.com/ava-labs/avalanchego/api/metrics"
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/SavaLabs/savannahnode/api/keystore"
+	"github.com/SavaLabs/savannahnode/api/metrics"
+	"github.com/SavaLabs/savannahnode/chains/atomic"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/validators"
+	"github.com/SavaLabs/savannahnode/utils"
+	"github.com/SavaLabs/savannahnode/utils/logging"
 )
 
 type SubnetLookup interface {

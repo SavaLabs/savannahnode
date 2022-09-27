@@ -4,8 +4,8 @@
 package txs
 
 import (
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/vms/platformvm/fx"
+	"github.com/SavaLabs/savannahnode/snow"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/fx"
 )
 
 var _ UnsignedTx = &CreateSubnetTx{}

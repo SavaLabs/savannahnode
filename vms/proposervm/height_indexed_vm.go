@@ -8,9 +8,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/engine/snowman/block"
 )
 
 // shouldHeightIndexBeRepaired checks if index needs repairing and stores a

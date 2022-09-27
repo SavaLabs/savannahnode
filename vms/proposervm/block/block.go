@@ -8,10 +8,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/staking"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/staking"
+	"github.com/SavaLabs/savannahnode/utils/hashing"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
 )
 
 var (

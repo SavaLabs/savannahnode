@@ -7,11 +7,11 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/wallet/chain/p"
-	"github.com/ava-labs/avalanchego/wallet/chain/x"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/wallet/chain/p"
+	"github.com/SavaLabs/savannahnode/wallet/chain/x"
 )
 
 var (

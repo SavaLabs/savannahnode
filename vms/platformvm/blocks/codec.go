@@ -6,10 +6,10 @@ package blocks
 import (
 	"math"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/SavaLabs/savannahnode/codec"
+	"github.com/SavaLabs/savannahnode/codec/linearcodec"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs"
 )
 
 // GenesisCode allows blocks of larger than usual size to be parsed.

@@ -6,10 +6,10 @@ package common
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/api/health"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators"
+	"github.com/SavaLabs/savannahnode/api/health"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow"
+	"github.com/SavaLabs/savannahnode/snow/validators"
 )
 
 // Engine describes the standard interface of a consensus engine

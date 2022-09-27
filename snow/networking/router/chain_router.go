@@ -15,18 +15,18 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow/networking/benchlist"
-	"github.com/ava-labs/avalanchego/snow/networking/handler"
-	"github.com/ava-labs/avalanchego/snow/networking/timeout"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/linkedhashmap"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/message"
+	"github.com/SavaLabs/savannahnode/snow/networking/benchlist"
+	"github.com/SavaLabs/savannahnode/snow/networking/handler"
+	"github.com/SavaLabs/savannahnode/snow/networking/timeout"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/hashing"
+	"github.com/SavaLabs/savannahnode/utils/linkedhashmap"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/timer/mockable"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/version"
 )
 
 var (

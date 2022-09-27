@@ -13,9 +13,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/math/meter"
-	"github.com/ava-labs/avalanchego/utils/resource"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/math/meter"
+	"github.com/SavaLabs/savannahnode/utils/resource"
 )
 
 func TestNewCPUTracker(t *testing.T) {

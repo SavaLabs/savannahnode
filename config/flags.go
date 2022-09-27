@@ -16,12 +16,12 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/ava-labs/avalanchego/database/leveldb"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/ulimit"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/SavaLabs/savannahnode/database/leveldb"
+	"github.com/SavaLabs/savannahnode/database/memdb"
+	"github.com/SavaLabs/savannahnode/genesis"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/ulimit"
+	"github.com/SavaLabs/savannahnode/utils/units"
 )
 
 const (

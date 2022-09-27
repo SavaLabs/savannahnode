@@ -7,7 +7,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/SavaLabs/savannahnode/utils/ips"
 )
 
 var (

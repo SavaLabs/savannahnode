@@ -8,9 +8,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/nodb"
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/database/nodb"
+	"github.com/SavaLabs/savannahnode/utils"
 )
 
 const (

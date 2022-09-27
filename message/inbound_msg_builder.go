@@ -6,8 +6,8 @@ package message
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/timer/mockable"
 )
 
 var _ InboundMsgBuilder = &inMsgBuilderWithPacker{}

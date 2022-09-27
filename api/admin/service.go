@@ -12,19 +12,19 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/api/server"
-	"github.com/ava-labs/avalanchego/chains"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/perms"
-	"github.com/ava-labs/avalanchego/utils/profiler"
-	"github.com/ava-labs/avalanchego/vms"
-	"github.com/ava-labs/avalanchego/vms/registry"
+	"github.com/SavaLabs/savannahnode/api"
+	"github.com/SavaLabs/savannahnode/api/server"
+	"github.com/SavaLabs/savannahnode/chains"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/engine/common"
+	"github.com/SavaLabs/savannahnode/utils"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/json"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/perms"
+	"github.com/SavaLabs/savannahnode/utils/profiler"
+	"github.com/SavaLabs/savannahnode/vms"
+	"github.com/SavaLabs/savannahnode/vms/registry"
 )
 
 const (

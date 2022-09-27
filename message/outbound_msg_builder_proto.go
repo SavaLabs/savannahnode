@@ -6,10 +6,10 @@ package message
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/ips"
 
-	p2ppb "github.com/ava-labs/avalanchego/proto/pb/p2p"
+	p2ppb "github.com/SavaLabs/savannahnode/proto/pb/p2p"
 )
 
 var _ OutboundMsgBuilder = &outMsgBuilderWithProto{}

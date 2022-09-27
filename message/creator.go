@@ -9,7 +9,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/constants"
 )
 
 var _ Creator = &creator{}

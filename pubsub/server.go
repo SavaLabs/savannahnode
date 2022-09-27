@@ -12,8 +12,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/units"
 )
 
 const (

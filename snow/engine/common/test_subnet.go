@@ -6,7 +6,7 @@ package common
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/SavaLabs/savannahnode/ids"
 )
 
 // SubnetTest is a test subnet

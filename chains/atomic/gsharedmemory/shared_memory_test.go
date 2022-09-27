@@ -14,15 +14,15 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/SavaLabs/savannahnode/chains/atomic"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/database/memdb"
+	"github.com/SavaLabs/savannahnode/database/prefixdb"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/units"
+	"github.com/SavaLabs/savannahnode/vms/rpcchainvm/grpcutils"
 
-	sharedmemorypb "github.com/ava-labs/avalanchego/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/SavaLabs/savannahnode/proto/pb/sharedmemory"
 )
 
 const (

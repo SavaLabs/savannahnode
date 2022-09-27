@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/filesystem"
-	"github.com/ava-labs/avalanchego/utils/resource"
-	"github.com/ava-labs/avalanchego/vms"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/filesystem"
+	"github.com/SavaLabs/savannahnode/utils/resource"
+	"github.com/SavaLabs/savannahnode/vms"
+	"github.com/SavaLabs/savannahnode/vms/rpcchainvm"
 )
 
 var (

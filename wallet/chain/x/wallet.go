@@ -6,14 +6,14 @@ package x
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/choices"
+	"github.com/SavaLabs/savannahnode/vms/avm"
+	"github.com/SavaLabs/savannahnode/vms/avm/txs"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/vms/components/verify"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/wallet/subnet/primary/common"
 )
 
 var (

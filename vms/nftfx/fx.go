@@ -7,9 +7,9 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/vms/components/verify"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
 )
 
 var (

@@ -11,12 +11,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/formatting/address"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/SavaLabs/savannahnode/utils/math"
 )
 
 type LockedAmount struct {

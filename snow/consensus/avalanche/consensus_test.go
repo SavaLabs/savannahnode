@@ -14,11 +14,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowball"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow"
+	"github.com/SavaLabs/savannahnode/snow/choices"
+	"github.com/SavaLabs/savannahnode/snow/consensus/snowball"
+	"github.com/SavaLabs/savannahnode/snow/consensus/snowstorm"
 )
 
 type testFunc func(*testing.T, Factory)

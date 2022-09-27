@@ -6,15 +6,15 @@ package primary
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/platformvm"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/chain/p"
-	"github.com/ava-labs/avalanchego/wallet/chain/x"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/vms/avm"
+	"github.com/SavaLabs/savannahnode/vms/platformvm"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/wallet/chain/p"
+	"github.com/SavaLabs/savannahnode/wallet/chain/x"
+	"github.com/SavaLabs/savannahnode/wallet/subnet/primary/common"
 )
 
 var _ Wallet = &wallet{}

@@ -6,8 +6,8 @@ package message
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/ips"
 )
 
 var _ OutboundMsgBuilder = &outMsgBuilderWithPacker{}

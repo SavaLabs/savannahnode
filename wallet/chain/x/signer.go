@@ -9,17 +9,17 @@ import (
 
 	stdcontext "context"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/vms/avm/fxs"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/nftfx"
-	"github.com/ava-labs/avalanchego/vms/propertyfx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/crypto"
+	"github.com/SavaLabs/savannahnode/utils/hashing"
+	"github.com/SavaLabs/savannahnode/vms/avm/fxs"
+	"github.com/SavaLabs/savannahnode/vms/avm/txs"
+	"github.com/SavaLabs/savannahnode/vms/components/avax"
+	"github.com/SavaLabs/savannahnode/vms/components/verify"
+	"github.com/SavaLabs/savannahnode/vms/nftfx"
+	"github.com/SavaLabs/savannahnode/vms/propertyfx"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
 )
 
 var (

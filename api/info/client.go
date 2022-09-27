@@ -6,9 +6,9 @@ package info
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/rpc"
-	"github.com/ava-labs/avalanchego/vms/platformvm/signer"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/rpc"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/signer"
 )
 
 var _ Client = &client{}

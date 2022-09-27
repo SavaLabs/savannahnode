@@ -6,10 +6,10 @@ package appsender
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/engine/common"
 
-	appsenderpb "github.com/ava-labs/avalanchego/proto/pb/appsender"
+	appsenderpb "github.com/SavaLabs/savannahnode/proto/pb/appsender"
 )
 
 var _ common.AppSender = &Client{}

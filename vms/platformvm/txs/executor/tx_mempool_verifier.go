@@ -6,9 +6,9 @@ package executor
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/state"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/txs"
 )
 
 var _ txs.Visitor = &MempoolTxVerifier{}

@@ -9,11 +9,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/network/throttling"
-	"github.com/ava-labs/avalanchego/utils/buffer"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/message"
+	"github.com/SavaLabs/savannahnode/network/throttling"
+	"github.com/SavaLabs/savannahnode/utils/buffer"
+	"github.com/SavaLabs/savannahnode/utils/logging"
 )
 
 const initialQueueSize = 64

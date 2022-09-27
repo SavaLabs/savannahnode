@@ -13,12 +13,12 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/corruptabledb"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/database/corruptabledb"
+	"github.com/SavaLabs/savannahnode/database/memdb"
+	"github.com/SavaLabs/savannahnode/vms/rpcchainvm/grpcutils"
 
-	rpcdbpb "github.com/ava-labs/avalanchego/proto/pb/rpcdb"
+	rpcdbpb "github.com/SavaLabs/savannahnode/proto/pb/rpcdb"
 )
 
 const (

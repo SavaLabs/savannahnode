@@ -8,16 +8,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/SavaLabs/savannahnode/api"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/choices"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/crypto"
+	"github.com/SavaLabs/savannahnode/utils/formatting"
+	"github.com/SavaLabs/savannahnode/utils/formatting/address"
+	"github.com/SavaLabs/savannahnode/utils/rpc"
 
-	cjson "github.com/ava-labs/avalanchego/utils/json"
+	cjson "github.com/SavaLabs/savannahnode/utils/json"
 )
 
 var _ Client = &client{}

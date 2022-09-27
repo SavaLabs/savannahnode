@@ -6,8 +6,8 @@ package executor
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/vms/platformvm/blocks"
+	"github.com/SavaLabs/savannahnode/snow/consensus/snowman"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/blocks"
 )
 
 var _ blocks.Visitor = &verifier{}

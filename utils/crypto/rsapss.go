@@ -9,8 +9,8 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/hashing"
 )
 
 var (

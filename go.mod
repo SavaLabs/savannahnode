@@ -1,7 +1,7 @@
-module github.com/ava-labs/avalanchego
+module github.com/SavaLabs/savannahnode
 
 // Changes to the minimum golang version must also be replicated in
-// scripts/build_avalanche.sh
+// scripts/build_savannah.sh
 // scripts/local.Dockerfile
 // Dockerfile
 // README.md
@@ -11,8 +11,8 @@ go 1.18
 require (
 	github.com/Microsoft/go-winio v0.5.2
 	github.com/NYTimes/gziphandler v1.1.1
+	github.com/SavaLabs/coreth v0.10.0-rc.1
 	github.com/ava-labs/avalanche-network-runner-sdk v0.2.0
-	github.com/ava-labs/coreth v0.10.0-rc.1
 	github.com/btcsuite/btcd v0.23.1
 	github.com/btcsuite/btcd/btcutil v1.1.1
 	github.com/decred/dcrd/dcrec/secp256k1/v3 v3.0.0-20200627015759-01fd2de07837
@@ -126,3 +126,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/SavaLabs/coreth => ../coreth

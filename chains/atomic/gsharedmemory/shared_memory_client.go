@@ -8,12 +8,12 @@ import (
 
 	stdatomic "sync/atomic"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/SavaLabs/savannahnode/chains/atomic"
+	"github.com/SavaLabs/savannahnode/database"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/units"
 
-	sharedmemorypb "github.com/ava-labs/avalanchego/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/SavaLabs/savannahnode/proto/pb/sharedmemory"
 )
 
 const (

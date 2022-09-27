@@ -7,11 +7,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/sampler"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/snow/validators"
+	"github.com/SavaLabs/savannahnode/utils/math"
+	"github.com/SavaLabs/savannahnode/utils/sampler"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
 )
 
 // Proposer list constants

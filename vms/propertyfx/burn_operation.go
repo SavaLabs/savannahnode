@@ -4,9 +4,9 @@
 package propertyfx
 
 import (
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/SavaLabs/savannahnode/snow"
+	"github.com/SavaLabs/savannahnode/vms/components/verify"
+	"github.com/SavaLabs/savannahnode/vms/secp256k1fx"
 )
 
 type BurnOperation struct {

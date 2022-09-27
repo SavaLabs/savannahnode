@@ -4,9 +4,9 @@
 package peer
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/message"
+	"github.com/SavaLabs/savannahnode/utils/ips"
 )
 
 // Network defines the interface that is used by a peer to help establish a well

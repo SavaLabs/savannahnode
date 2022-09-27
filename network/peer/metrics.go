@@ -10,10 +10,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/metric"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/SavaLabs/savannahnode/message"
+	"github.com/SavaLabs/savannahnode/utils/logging"
+	"github.com/SavaLabs/savannahnode/utils/metric"
+	"github.com/SavaLabs/savannahnode/utils/wrappers"
 )
 
 type MessageMetrics struct {

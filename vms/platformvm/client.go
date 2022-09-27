@@ -7,17 +7,17 @@ import (
 	"context"
 	"time"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/rpc"
-	"github.com/ava-labs/avalanchego/vms/platformvm/status"
+	"github.com/SavaLabs/savannahnode/api"
+	"github.com/SavaLabs/savannahnode/ids"
+	"github.com/SavaLabs/savannahnode/utils/constants"
+	"github.com/SavaLabs/savannahnode/utils/crypto"
+	"github.com/SavaLabs/savannahnode/utils/formatting"
+	"github.com/SavaLabs/savannahnode/utils/formatting/address"
+	"github.com/SavaLabs/savannahnode/utils/json"
+	"github.com/SavaLabs/savannahnode/utils/rpc"
+	"github.com/SavaLabs/savannahnode/vms/platformvm/status"
 
-	platformapi "github.com/ava-labs/avalanchego/vms/platformvm/api"
+	platformapi "github.com/SavaLabs/savannahnode/vms/platformvm/api"
 )
 
 var _ Client = &client{}
