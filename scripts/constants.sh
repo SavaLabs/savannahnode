@@ -12,7 +12,7 @@ GOPATH="$(go env GOPATH)"
 
 ### temporary, until we have a committed version
 #coreth_path="$GOPATH/pkg/mod/github.com/SavaLabs/coreth@$coreth_version"
-coreth_path="$GOPATH/src/github.com/kukrer/coreth"
+coreth_path="$GOPATH/src/github.com/SavaLabs/coreth"
 
 # Where Savannahnode binary goes
 build_dir="$SAVANODE_PATH/build"

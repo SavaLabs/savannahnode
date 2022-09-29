@@ -13,12 +13,12 @@ import (
 type StakingConfig struct {
 	// Staking uptime requirements
 	UptimeRequirement float64 `json:"uptimeRequirement"`
-	// Minimum stake, in nAVAX, required to validate the primary network
+	// Minimum stake, in nFUEL, required to validate the primary network
 	MinValidatorStake uint64 `json:"minValidatorStake"`
-	// Maximum stake, in nAVAX, allowed to be placed on a single validator in
+	// Maximum stake, in nFUEL, allowed to be placed on a single validator in
 	// the primary network
 	MaxValidatorStake uint64 `json:"maxValidatorStake"`
-	// Minimum stake, in nAVAX, that can be delegated on the primary network
+	// Minimum stake, in nFUEL, that can be delegated on the primary network
 	MinDelegatorStake uint64 `json:"minDelegatorStake"`
 	// Minimum delegation fee, in the range [0, 1000000], that can be charged
 	// for delegation on the primary network.
@@ -65,6 +65,10 @@ func GetTxFeeConfig(networkID uint32) TxFeeConfig {
 		return MainnetParams.TxFeeConfig
 	case constants.FujiID:
 		return FujiParams.TxFeeConfig
+	case constants.SavannahID:
+		return SavannahParams.TxFeeConfig
+	case constants.MarulaID:
+		return MarulaParams.TxFeeConfig
 	case constants.LocalID:
 		return LocalParams.TxFeeConfig
 	default:
@@ -78,6 +82,10 @@ func GetStakingConfig(networkID uint32) StakingConfig {
 		return MainnetParams.StakingConfig
 	case constants.FujiID:
 		return FujiParams.StakingConfig
+	case constants.SavannahID:
+		return SavannahParams.StakingConfig
+	case constants.MarulaID:
+		return MarulaParams.StakingConfig
 	case constants.LocalID:
 		return LocalParams.StakingConfig
 	default:

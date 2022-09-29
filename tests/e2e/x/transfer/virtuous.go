@@ -32,8 +32,8 @@ const (
 
 const totalRounds = 50
 
-var _ = e2e.DescribeXChain("[Virtuous Transfer Tx AVAX]", func() {
-	ginkgo.It("can issue a virtuous transfer tx for AVAX asset", func() {
+var _ = e2e.DescribeXChain("[Virtuous Transfer Tx FUEL]", func() {
+	ginkgo.It("can issue a virtuous transfer tx for FUEL asset", func() {
 		if e2e.GetEnableWhitelistTxTests() {
 			ginkgo.Skip("whitelist vtx tests are enabled; skipping")
 		}
@@ -110,7 +110,7 @@ var _ = e2e.DescribeXChain("[Virtuous Transfer Tx AVAX]", func() {
 				bal := balances[avaxAssetID]
 				testBalances = append(testBalances, bal)
 
-				fmt.Printf(`CURRENT BALANCE %21d AVAX (SHORT ADDRESS %q)
+				fmt.Printf(`CURRENT BALANCE %21d FUEL (SHORT ADDRESS %q)
 `,
 					bal,
 					testKeys[i].PublicKey().Address(),
@@ -173,14 +173,14 @@ var _ = e2e.DescribeXChain("[Virtuous Transfer Tx AVAX]", func() {
 TRANSFERRING
 
 FROM [%q]
-SENDER    CURRENT BALANCE     : %21d AVAX
-SENDER    NEW BALANCE (AFTER) : %21d AVAX
+SENDER    CURRENT BALANCE     : %21d FUEL
+SENDER    NEW BALANCE (AFTER) : %21d FUEL
 
-TRANSFER AMOUNT FROM SENDER   : %21d AVAX
+TRANSFER AMOUNT FROM SENDER   : %21d FUEL
 
 TO [%q]
-RECEIVER  CURRENT BALANCE     : %21d AVAX
-RECEIVER  NEW BALANCE (AFTER) : %21d AVAX
+RECEIVER  CURRENT BALANCE     : %21d FUEL
+RECEIVER  NEW BALANCE (AFTER) : %21d FUEL
 ===
 `,
 				shortAddrs[fromIdx],

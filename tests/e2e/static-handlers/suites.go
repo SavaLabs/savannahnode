@@ -168,7 +168,7 @@ var _ = ginkgo.Describe("[StaticHandlers]", func() {
 
 		buildGenesisArgs := api.BuildGenesisArgs{
 			NetworkID:     json.Uint32(constants.UnitTestID),
-			AvaxAssetID:   ids.ID{'a', 'v', 'a', 'x'},
+			AvaxAssetID:   ids.ID{'f', 'u', 'e', 'l'},
 			UTXOs:         genesisUTXOs,
 			Validators:    genesisValidators,
 			Chains:        nil,

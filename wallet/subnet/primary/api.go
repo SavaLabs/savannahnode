@@ -20,9 +20,11 @@ import (
 )
 
 const (
-	MainnetAPIURI = "https://api.avax.network"
-	FujiAPIURI    = "https://api.avax-test.network"
-	LocalAPIURI   = "http://localhost:9650"
+	MainnetAPIURI  = "https://api.avax.network"
+	FujiAPIURI     = "https://api.avax-test.network"
+	LocalAPIURI    = "http://localhost:9650"
+	SavannahAPIURI = "https://api.savannah.network"
+	MarulaAPIURI   = "http://api.testnet.savannah.network:9650"
 
 	fetchLimit = 1024
 )

@@ -62,6 +62,13 @@ func getIPs(networkID uint32) []string {
 			"54.94.159.80:9651",
 			"54.94.242.98:9651",
 		}
+	case constants.SavannahID:
+		return []string{}
+	case constants.MarulaID:
+		return []string{
+			"18.116.224.200:9651",
+			"18.116.224.200:9653",
+		}
 	default:
 		return nil
 	}
@@ -120,6 +127,13 @@ func getNodeIDs(networkID uint32) []string {
 			"NodeID-EzGaipqomyK9UKx9DBHV6Ky3y68hoknrF",
 			"NodeID-NpagUxt6KQiwPch9Sd4osv8kD1TZnkjdk",
 			"NodeID-3VWnZNViBP2b56QBY7pNJSLzN2rkTyqnK",
+		}
+	case constants.SavannahID:
+		return []string{}
+	case constants.MarulaID:
+		return []string{
+			"NodeID-PZyZ8zex6LkXacG64h4hM2z7184tqKfao",
+			"NodeID-HsfmpsgymVQ9HQXxj2q4WeQ8jnDtnA9rT",
 		}
 	default:
 		return nil

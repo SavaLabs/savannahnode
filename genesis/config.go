@@ -150,6 +150,10 @@ var (
 	// genesis.
 	FujiConfig Config
 
+	SavannahConfig Config
+
+	MarulaConfig Config
+
 	// LocalConfig is the config that should be used to generate a local
 	// genesis.
 	LocalConfig Config
@@ -158,12 +162,16 @@ var (
 func init() {
 	unparsedMainnetConfig := UnparsedConfig{}
 	unparsedFujiConfig := UnparsedConfig{}
+	unparsedSavannahConfig := UnparsedConfig{}
+	unparsedMarulaConfig := UnparsedConfig{}
 	unparsedLocalConfig := UnparsedConfig{}
 
 	errs := wrappers.Errs{}
 	errs.Add(
 		json.Unmarshal(mainnetGenesisConfigJSON, &unparsedMainnetConfig),
 		json.Unmarshal(fujiGenesisConfigJSON, &unparsedFujiConfig),
+		json.Unmarshal(savannahGenesisConfigJSON, &unparsedSavannahConfig),
+		json.Unmarshal(marulaGenesisConfigJSON, &unparsedMarulaConfig),
 		json.Unmarshal(localGenesisConfigJSON, &unparsedLocalConfig),
 	)
 	if errs.Errored() {
@@ -177,6 +185,14 @@ func init() {
 	fujiConfig, err := unparsedFujiConfig.Parse()
 	errs.Add(err)
 	FujiConfig = fujiConfig
+
+	savannahConfig, err := unparsedSavannahConfig.Parse()
+	errs.Add(err)
+	SavannahConfig = savannahConfig
+
+	marulaConfig, err := unparsedMarulaConfig.Parse()
+	errs.Add(err)
+	MarulaConfig = marulaConfig
 
 	localConfig, err := unparsedLocalConfig.Parse()
 	errs.Add(err)
@@ -193,6 +209,10 @@ func GetConfig(networkID uint32) *Config {
 		return &MainnetConfig
 	case constants.FujiID:
 		return &FujiConfig
+	case constants.SavannahID:
+		return &SavannahConfig
+	case constants.MarulaID:
+		return &MarulaConfig
 	case constants.LocalID:
 		return &LocalConfig
 	default:
